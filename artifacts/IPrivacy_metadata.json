@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "_key",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test4.sol": "IPrivacy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test4.sol": {
+			"keccak256": "0x3bdc387073089d6abf5dea898a1dbf86c58f822ed7051b731558f76dc12cfaae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7bd6c300b4ebe1bf9c592a29c7a973327801fb8bb7880f99109b8bbd2c012e50",
+				"dweb:/ipfs/QmYUwKkBHquHjZqKcob5iRm3NUmRrNa7B3Yib16myAorke"
+			]
+		}
+	},
+	"version": 1
+}

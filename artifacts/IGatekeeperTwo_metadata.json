@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "",
+						"type": "bytes8"
+					}
+				],
+				"name": "enter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test9.sol": "IGatekeeperTwo"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test9.sol": {
+			"keccak256": "0x2c5972759c6157e53d79dc73daf5af8197829f4f6f3358fd1820ac529274535d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af34cc962010eb3085abc3ef830c77734dff1dd18e7d6d975040e11249198944",
+				"dweb:/ipfs/QmWRCkQ21q7LH4eMavyZy8YHHg9FMLYt8tD3qGPatu9CT9"
+			]
+		}
+	},
+	"version": 1
+}

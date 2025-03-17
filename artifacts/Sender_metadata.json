@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "target",
+						"type": "address"
+					}
+				],
+				"name": "destroyAndSend",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tes.sol": "Sender"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tes.sol": {
+			"keccak256": "0x5929cc350ae417860d4dd270856d707c3c4fe3c7c25d67b28ce578e92ee44d6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2238c41be8a09a230b1ffea5267435642058dab18ce4d481515b9941d7c12cf1",
+				"dweb:/ipfs/QmSYrz8zRYXpoEAfDerhYz7xqrd8zkRhNofTf1iU1CSNoT"
+			]
+		}
+	},
+	"version": 1
+}

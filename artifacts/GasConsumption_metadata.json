@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test14.sol": "GasConsumption"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test14.sol": {
+			"keccak256": "0x3a489817e1ae8b70c70a464fed2a2bb23a2305237ec0b862f45603fc88ba6a6a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d632ec02e4effc17e44ae91c3563a392547fa8e1ffcff68b46b276d1d209b97d",
+				"dweb:/ipfs/QmR3MDbrSH67ipsbU8rBjZ6e5iSrisvme59EJiNgjLYenv"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "target",
+				"outputs": [
+					{
+						"internalType": "contract IPrivacy",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test4.sol": "StorageReader"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test4.sol": {
+			"keccak256": "0x26cec1392fa58c3abbedb8472ee5177a3e16f446d9d6fcf642d5145b4384ad23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58f6ef811e03574a039a2c5b14f8da407faf5e98dfc6eb6432f9b5901041c0bc",
+				"dweb:/ipfs/QmdcGvBmfqZHDEra3FjN88Qv4PrhMwCF7eEAuwqtfP2jfu"
+			]
+		}
+	},
+	"version": 1
+}
