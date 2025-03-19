@@ -6,54 +6,66 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "_authorizeUpgrade",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_add",
+						"name": "newImplementation",
 						"type": "address"
 					}
 				],
+				"name": "_setImplementation",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "attack1",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newImplementation",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "_upgradeToAndCall",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "attack2",
+				"name": "initialize",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "eng",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "contract IEngine",
-						"name": "",
+						"internalType": "address",
+						"name": "newImplementation",
 						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "mot",
-				"outputs": [
-					{
-						"internalType": "contract IMotorbike",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "upgradeToAndCall",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -66,7 +78,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"moto_solv.sol": "Attack"
+			"moto_solv.sol": "IEngine"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

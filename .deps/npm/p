@@ -1,0 +1,8 @@
+/**
+ * Minified by jsDelivr using Terser v5.19.2.
+ * Original file: /npm/p@0.2.0/pattern.js
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+!function(n){var e="undefined"!=typeof process&&process.env.DEBUG;function t(){e&&console.log.apply(this,arguments)}function i(n,e){return n===Error?e&&-1!==e.name.indexOf("Error"):void 0===n||("object"==typeof n?JSON.stringify(n)===JSON.stringify(e):n.toString()===e.toString())}function o(){var n,e=[];return function(){if(n||(n=arguments.length-1),n===arguments.length){var o=0,l=0;n:for(;l<arguments.length;l++)for(;o<e.length;o++){var r=e[o];if(t("α ",l,o),t("  ░ ",r,r[l]),t("  σ ",r.length),t("  • ",[].slice.call(arguments,0)),r.length>l)if(i(r[l],arguments[l])){if(t("  ✔ ",r[l],"===",arguments[l]),arguments.length!==l+1){t("  ⥁");continue n}}else if(t("  ✗ ",r[l],"===",arguments[l]),l=0,e.length!==o+1){t("  ⥁");continue}var f=r[r.length-1];return t("  "+("function"==typeof f?"ƒ":"λ"),f.name||f),"function"==typeof f?f.apply(this,[].slice.call(arguments,0)):null}}else e.push([].slice.call(arguments,0)),t("‣ ",[].slice.call(arguments,0))}}"undefined"==typeof exports?window.pattern=o:module.exports=o}();
+//# sourceMappingURL=/sm/a25b8804948fa9a4d5fe5202ba4e552b5115c7ed27a4d800190b2d4f38af4746.map

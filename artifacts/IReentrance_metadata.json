@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.17+commit.8df45f5f"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,105 +9,11 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "spender",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "approve",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "token",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "account",
+						"name": "_newAdmin",
 						"type": "address"
 					}
 				],
-				"name": "balanceOf",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "getSwapPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "isSold",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "from",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "swap",
+				"name": "proposeNewAdmin",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -126,9 +32,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"test16.sol": "IReentrance"
+			"puzle_wallet_solve.sol": "IReentrance"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -140,12 +46,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"test16.sol": {
-			"keccak256": "0xe6fd231c902cfb237e9822328e8ccd27c370aec0f322d81fc60f6e4860f7cb8e",
+		"puz.sol": {
+			"keccak256": "0xa89716bfb061e40cc05cc05fed525c9e2f3f51c4812c650ef24d8a7b9d60b4a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://809b3d17f80d141339a2e4200a2c1852e1abcc7fabcba00fbb2c1f9cc3612f0c",
-				"dweb:/ipfs/QmZKMsQDkQde8TK6QmBaRuo1hoZRTRX3LKspEdMjysXPVY"
+				"bzz-raw://002dc8d16fd1ca0d1a557a0f325f7a131ac182fcd3a9e62b3b97b40f29861740",
+				"dweb:/ipfs/QmSC1kYtk8ivgKgp9at7WRP1TU9iseKVfyzrB4EjP8DAiF"
+			]
+		},
+		"puzle_wallet_solve.sol": {
+			"keccak256": "0xd8662e2b5684a0e1a47d9951e8594b3fa6fcceedcdf156b984f6c1faa772b4df",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b189fc8523e08cb046b061d0c588e1ac4bb059a6309ffa505b906ed3318d3ae",
+				"dweb:/ipfs/QmcE7Fe6p6es3JF7jLiqkPwkyLzafRmnoeiMNBDR312QH6"
 			]
 		}
 	},

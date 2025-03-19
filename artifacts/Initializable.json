@@ -1,0 +1,58 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122008830811deca670d48c56b4b5be20f29e9900970a894c206b61912eb3ac5fcab64736f6c63430006000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ADDMOD DUP4 ADDMOD GT 0xDE 0xCA PUSH8 0xD48C56B4B5BE20F 0x29 0xE9 SWAP1 MULMOD PUSH17 0xA894C206B61912EB3AC5FCAB64736F6C63 NUMBER STOP MOD STOP STOP CALLER ",
+			"sourceMap": "886:1357:0:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;886:1357:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fdfea264697066735822122008830811deca670d48c56b4b5be20f29e9900970a894c206b61912eb3ac5fcab64736f6c63430006000033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ADDMOD DUP4 ADDMOD GT 0xDE 0xCA PUSH8 0xD48C56B4B5BE20F 0x29 0xE9 SWAP1 MULMOD PUSH17 0xA894C206B61912EB3AC5FCAB64736F6C63 NUMBER STOP MOD STOP STOP CALLER ",
+			"sourceMap": "886:1357:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "66",
+				"totalCost": "12666"
+			},
+			"internal": {
+				"isConstructor()": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

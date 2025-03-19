@@ -31,17 +31,12 @@
 	},
 	"data": {
 		"bytecode": {
-			"functionDebugData": {},
-			"generatedSources": [],
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
 			"sourceMap": ""
 		},
 		"deployedBytecode": {
-			"functionDebugData": {},
-			"generatedSources": [],
-			"immutableReferences": {},
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
@@ -49,7 +44,9 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"proposeNewAdmin(address)": "a6376746"
+			"_delegate(address)": "f13101e9",
+			"_getAddressSlot(bytes32)": "991c37be",
+			"initialize(address)": "c4d66de8"
 		}
 	},
 	"abi": [
@@ -57,11 +54,43 @@
 			"inputs": [
 				{
 					"internalType": "address",
-					"name": "_newAdmin",
+					"name": "implementation",
 					"type": "address"
 				}
 			],
-			"name": "proposeNewAdmin",
+			"name": "_delegate",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "bytes32",
+					"name": "slot",
+					"type": "bytes32"
+				}
+			],
+			"name": "_getAddressSlot",
+			"outputs": [
+				{
+					"internalType": "address",
+					"name": "",
+					"type": "address"
+				}
+			],
+			"stateMutability": "pure",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_logic",
+					"type": "address"
+				}
+			],
+			"name": "initialize",
 			"outputs": [],
 			"stateMutability": "nonpayable",
 			"type": "function"
