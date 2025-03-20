@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "msgData",
+						"type": "bytes"
+					}
+				],
+				"name": "handleTransaction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fort.sol": "IDetectionBot"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fort.sol": {
+			"keccak256": "0xe0e591805c6ea8c52afcd5a987f3abb6db5dd900403c76bac76fd49eee00deb6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://607816b484ef891860ff14c342c67b559ca327260eae0ae5dbf5b30663d332f8",
+				"dweb:/ipfs/QmYYEgSJ7gzkUAwQsB6x5KvdcYKE4UF3UCGzBEAr62CfPD"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,128 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "botRaisedAlerts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "msgData",
+						"type": "bytes"
+					}
+				],
+				"name": "notify",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "raiseAlert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "detectionBotAddress",
+						"type": "address"
+					}
+				],
+				"name": "setDetectionBot",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "usersDetectionBots",
+				"outputs": [
+					{
+						"internalType": "contract IDetectionBot",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fort.sol": "Forta"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fort.sol": {
+			"keccak256": "0x8c9b0d2c12959ad665a100bb5c31304550eee835c978b6e5366e139bbda429b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98b1edccf7d24d4251c96d7e657f5b6b5b704a449ab227600e38ad70ba20142c",
+				"dweb:/ipfs/QmP7vSW73HaLpNcRa9DAH9gmVLhLaBLLgZyQ3FtWHg8ikk"
+			]
+		}
+	},
+	"version": 1
+}

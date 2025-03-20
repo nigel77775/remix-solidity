@@ -19,7 +19,6 @@ contract Attack {
     IEngine public eng;
 
     constructor(address _add) public {
-        mot = IMotorbike(_add);
         eng = IEngine(_add);
     }
 

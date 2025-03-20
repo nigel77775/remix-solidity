@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,11 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "implementation",
+						"name": "user",
 						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "msgData",
+						"type": "bytes"
 					}
 				],
-				"name": "_delegate",
+				"name": "notify",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -21,46 +26,44 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bytes32",
-						"name": "slot",
-						"type": "bytes32"
-					}
-				],
-				"name": "_getAddressSlot",
-				"outputs": [
-					{
 						"internalType": "address",
-						"name": "",
+						"name": "user",
 						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "raiseAlert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_logic",
+						"name": "detectionBotAddress",
 						"type": "address"
 					}
 				],
-				"name": "initialize",
+				"name": "setDetectionBot",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"moto_solv.sol": "IMotorbike"
+			"fort.sol": "IForta"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -74,11 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"moto_solv.sol": {
-			"keccak256": "0x6a7c18bde9dce0eeedc7bb32ab82b433b3a40b7ab4b324127ddc9bc8b19e1549",
+		"fort.sol": {
+			"keccak256": "0xe0e591805c6ea8c52afcd5a987f3abb6db5dd900403c76bac76fd49eee00deb6",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://f4567fe4bb0e778d6115bc9e6d3a1e0cead300df94d533d67888c4ee9a6342e7",
-				"dweb:/ipfs/Qmd25QfzUUHRb39Rz4j1MgnZwb3Y6jCwLAzADdGTaXVdyp"
+				"bzz-raw://607816b484ef891860ff14c342c67b559ca327260eae0ae5dbf5b30663d332f8",
+				"dweb:/ipfs/QmYYEgSJ7gzkUAwQsB6x5KvdcYKE4UF3UCGzBEAr62CfPD"
 			]
 		}
 	},

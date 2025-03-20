@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sol_t/destr.sol": "Pwner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sol_t/destr.sol": {
+			"keccak256": "0xe2a5a4159f503485001fef1c360d50acaee6d555dd5ffe8af4be84f0564af9f8",
+			"urls": [
+				"bzz-raw://1f7f495c4f35ce215812cbc7256f021fe06dc3defc431e3b716933dda75b3c99",
+				"dweb:/ipfs/QmT6r4QtLW36F679V8Uic7WFzsbAfoDSHtGptZJLQ5UYuz"
+			]
+		}
+	},
+	"version": 1
+}

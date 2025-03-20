@@ -1,37 +1,35 @@
 {
 	"compiler": {
-		"version": "0.8.9+commit.e5eed63a"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "NotEnoughBalance",
-				"type": "error"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "_cryptoVault",
+						"type": "address"
 					}
 				],
-				"name": "notify",
-				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
+				"stateMutability": "nonpayable",
+				"type": "constructor"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "user",
 						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "msgData",
+						"type": "bytes"
 					}
 				],
-				"name": "pwn",
+				"name": "handleTransaction",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -50,9 +48,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"l26.sol": "Attack"
+			"fort.sol": "AlertBot"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -64,12 +62,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"l26.sol": {
-			"keccak256": "0x6c9d7d8ceea35ce5324c5407baee5ca36e901e511fc09d3cb2d9f9ad08ba4b90",
-			"license": "GPL-3.0",
+		"fort.sol": {
+			"keccak256": "0xe0e591805c6ea8c52afcd5a987f3abb6db5dd900403c76bac76fd49eee00deb6",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://44d72128501addea222e8fc2341cbe29260de0fc661fcf0cfa60741f1c307b52",
-				"dweb:/ipfs/QmSYbPMPAJgstzrZDSYaLHLHKrYLPq6XQdxKavbTQWaK42"
+				"bzz-raw://607816b484ef891860ff14c342c67b559ca327260eae0ae5dbf5b30663d332f8",
+				"dweb:/ipfs/QmYYEgSJ7gzkUAwQsB6x5KvdcYKE4UF3UCGzBEAr62CfPD"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.8.0+commit.c7dfd78e"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,24 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "implementation",
+						"name": "_cryptoVaultAddress",
 						"type": "address"
 					}
 				],
-				"name": "_delegate",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "bytes32",
-						"name": "slot",
-						"type": "bytes32"
-					}
-				],
-				"name": "_getAddressSlot",
+				"inputs": [],
+				"name": "cryptoVaultAddress",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -34,33 +26,42 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_logic",
+						"name": "user",
 						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
 					}
 				],
-				"name": "initialize",
+				"name": "handleTransaction",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"moto_solv.sol": "IMotorbike"
+			"fort.sol": "MyDetectionBot"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -74,11 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"moto_solv.sol": {
-			"keccak256": "0x6a7c18bde9dce0eeedc7bb32ab82b433b3a40b7ab4b324127ddc9bc8b19e1549",
+		"fort.sol": {
+			"keccak256": "0x8c9b0d2c12959ad665a100bb5c31304550eee835c978b6e5366e139bbda429b7",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://f4567fe4bb0e778d6115bc9e6d3a1e0cead300df94d533d67888c4ee9a6342e7",
-				"dweb:/ipfs/Qmd25QfzUUHRb39Rz4j1MgnZwb3Y6jCwLAzADdGTaXVdyp"
+				"bzz-raw://98b1edccf7d24d4251c96d7e657f5b6b5b704a449ab227600e38ad70ba20142c",
+				"dweb:/ipfs/QmP7vSW73HaLpNcRa9DAH9gmVLhLaBLLgZyQ3FtWHg8ikk"
 			]
 		}
 	},

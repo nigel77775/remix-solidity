@@ -6,11 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "NotEnoughBalance",
-				"type": "error"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -19,19 +14,6 @@
 					}
 				],
 				"name": "notify",
-				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					}
-				],
-				"name": "pwn",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -50,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"l26.sol": "Attack"
+			"l26.sol": "INotifyable"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -65,11 +47,11 @@
 	},
 	"sources": {
 		"l26.sol": {
-			"keccak256": "0x6c9d7d8ceea35ce5324c5407baee5ca36e901e511fc09d3cb2d9f9ad08ba4b90",
-			"license": "GPL-3.0",
+			"keccak256": "0xe57f5b3d7838e4b99784a8ee2db8d7a1408692d5a414d63e932a29829b589cbd",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://44d72128501addea222e8fc2341cbe29260de0fc661fcf0cfa60741f1c307b52",
-				"dweb:/ipfs/QmSYbPMPAJgstzrZDSYaLHLHKrYLPq6XQdxKavbTQWaK42"
+				"bzz-raw://8d0bad21a73824388c4a4db010008d9df089affa8f42f86ba3b6b99724dcd897",
+				"dweb:/ipfs/QmSc5tTUr7BjrmryHpJ6koQaBhfVn5VTt2SuGa4icYzrqN"
 			]
 		}
 	},

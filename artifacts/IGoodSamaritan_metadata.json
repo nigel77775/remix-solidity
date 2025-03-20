@@ -7,32 +7,14 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "NotEnoughBalance",
-				"type": "error"
-			},
-			{
-				"inputs": [
+				"name": "requestDonation",
+				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
+						"internalType": "bool",
+						"name": "enoughBalance",
+						"type": "bool"
 					}
 				],
-				"name": "notify",
-				"outputs": [],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_addr",
-						"type": "address"
-					}
-				],
-				"name": "pwn",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -50,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"l26.sol": "Attack"
+			"l26.sol": "IGoodSamaritan"
 		},
 		"evmVersion": "london",
 		"libraries": {},
