@@ -3,8 +3,8 @@ async function readStorageSlot() {
     const web3 = new Web3(window.ethereum);
 
     // 👉 Укажи нужный адрес контракта и номер слота
-    const contractAddress = "0x8BB6b0Fa30cC207Be5644271233ab342aDF6aEFF"; // <-- ВСТАВЬ СВОЙ
-    const slot = 1; // <-- номер storage-слота, который хочешь прочитать
+    const contractAddress = "0xc8ee1dc7539531a8b5fea4c803dfed6cbf3801e9"; // <-- ВСТАВЬ СВОЙ
+    const slot = 2; // <-- номер storage-слота, который хочешь прочитать
 
     // Попросим доступ к аккаунтам в Metamask
     await window.ethereum.request({ method: "eth_requestAccounts" });
