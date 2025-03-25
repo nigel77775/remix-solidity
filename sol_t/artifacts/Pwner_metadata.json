@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.0+commit.26b70077"
+		"version": "0.7.0+commit.9e61f92b"
 	},
 	"language": "Solidity",
 	"output": {
@@ -14,10 +14,14 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
@@ -37,10 +41,11 @@
 	},
 	"sources": {
 		"sol_t/destr.sol": {
-			"keccak256": "0xe2a5a4159f503485001fef1c360d50acaee6d555dd5ffe8af4be84f0564af9f8",
+			"keccak256": "0x97f358a0251f637ea51b425b40cbdf8cbf6d4df08d72261d29590d3c946a66eb",
+			"license": "MIT",
 			"urls": [
-				"bzz-raw://1f7f495c4f35ce215812cbc7256f021fe06dc3defc431e3b716933dda75b3c99",
-				"dweb:/ipfs/QmT6r4QtLW36F679V8Uic7WFzsbAfoDSHtGptZJLQ5UYuz"
+				"bzz-raw://2ff584a5c78ebbc58d86a0f19eea948a86056a45b39aca03335afcfd537ecad7",
+				"dweb:/ipfs/Qmf8UBRNb1crmRnHYuXbmyoNmNo7AD4tJtMxbRdw9hWrdC"
 			]
 		}
 	},

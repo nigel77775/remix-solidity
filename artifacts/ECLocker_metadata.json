@@ -1,0 +1,272 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_lockId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_signature",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "InvalidController",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "SignatureAlreadyUsed",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newController",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "ControllerChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "initialController",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "LockInitializated",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "opener",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "timestamp",
+						"type": "uint256"
+					}
+				],
+				"name": "Open",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "newController",
+						"type": "address"
+					}
+				],
+				"name": "changeController",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "controller",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lockId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "msgHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "open",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "usedSignatures",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"changeController(uint8,bytes32,bytes32,address)": {
+					"details": "Updates the controller storage variableEmits ControllerChanged event",
+					"params": {
+						"newController": "the new controller address",
+						"r": "the r value of the signature",
+						"s": "the s value of the signature",
+						"v": "the recovery id"
+					}
+				},
+				"constructor": {
+					"params": {
+						"_lockId": "uinique lock id set by SlockDotIt's factory",
+						"_signature": "the signature of the initial controller"
+					}
+				},
+				"open(uint8,bytes32,bytes32)": {
+					"details": "Emits Open event",
+					"params": {
+						"r": "the r value of the signature",
+						"s": "the s value of the signature",
+						"v": "the recovery id"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"changeController(uint8,bytes32,bytes32,address)": {
+					"notice": "Changes the controller of the lock"
+				},
+				"constructor": {
+					"notice": "Initializes the contract the lock"
+				},
+				"open(uint8,bytes32,bytes32)": {
+					"notice": "Opens the lock"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sign_lvl.sol": "ECLocker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sign_lvl.sol": {
+			"keccak256": "0x3f6a3691ff6ae347a25b351cb542dad365c2c2da62bb0569e58dc6556e2ebf70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af39de98a8d02b7930900b6f16503596ec81c12864c37503d97809cf886e4d6f",
+				"dweb:/ipfs/Qmejn1dxC6yEa1Df3rbKyi5cC8Y3Qm8wNrLvJbL1pJqmT1"
+			]
+		}
+	},
+	"version": 1
+}

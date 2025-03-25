@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "run",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cour_sol.sol": "MagicAnimalCarouselScript"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cour_lvl.sol": {
+			"keccak256": "0x1933a8da62f5f469294e6b8a5be4284d632a7d18f94db0a5430d49971debbb23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d7dae9cfd12f8e69ae57516b7e9bd98a5cd553f57d7aba7968791a4ac124951",
+				"dweb:/ipfs/QmTUPwtvv3BEhb5oxzS2bEf6TfyuEdHsXUgmv8aGL8WK7Z"
+			]
+		},
+		"cour_sol.sol": {
+			"keccak256": "0x1a554eb5c7db29d2827d27ef0a7d3113bdd8c1865f1ef5356c738a2fa54a6a62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3abac01e5a38fd2cee4c96e93cc491719e8ebcde1ae948cd3b65e22a4b1917d9",
+				"dweb:/ipfs/Qmc8QWH3Q7KT6LhGwDdPjN7f7HNx1qRXih8MQoHfGJUUYo"
+			]
+		}
+	},
+	"version": 1
+}

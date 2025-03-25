@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"stake_sol.sol": "IWETH"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"stake.sol": {
+			"keccak256": "0x7e120dc6fa37762e3d4c3dccc143fa20317a8a188cda3ccda9347e3acb1991ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cbafa128dad40f6abf0894fba48f2e077e18319dd1c8ae3e03108647c32ab054",
+				"dweb:/ipfs/QmSMJocEaXHnWar4fNScDB95XtwqfoQXniP2LCEFrjRZ7F"
+			]
+		},
+		"stake_sol.sol": {
+			"keccak256": "0xe8d855dd8ab6c10d17cd431548e200095131da56a13aa072872f2cf2f4ad9697",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc7f07de044cad593ad02e82f73e392eca5f0f43de0af27ddc692ffb88fbd0ee",
+				"dweb:/ipfs/QmNotgH5sidVtDSQ9jVAAZLT1ZyUKEnFRrgBvrbNFeBFeu"
+			]
+		}
+	},
+	"version": 1
+}

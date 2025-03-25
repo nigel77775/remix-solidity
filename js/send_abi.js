@@ -9,8 +9,8 @@ await provider.send("eth_requestAccounts", []);
 const signer = provider.getSigner();
 
 // Прокси-контракт, который содержит функцию upgradeToAndCall()
-const proxyAddress = "0x8BB6b0Fa30cC207Be5644271233ab342aDF6aEFF";
-const newImplementation = "0x4eb43a25db818494db48f8fca0cadb10fb155888"; // адрес твоего контракта с pwn()
+const proxyAddress = "0x06b2ddf4ca1ca0f16f20297c16596704be245ec1";
+//const newImplementation = "0x4eb43a25db818494db48f8fca0cadb10fb155888"; // адрес твоего контракта с pwn()
 
 // ABI только для нужной функции
 const proxyAbi = [

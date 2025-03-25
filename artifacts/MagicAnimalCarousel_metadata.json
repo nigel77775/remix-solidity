@@ -1,0 +1,151 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "AnimalNameTooLong",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "MAX_CAPACITY",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "crateId",
+						"type": "uint256"
+					}
+				],
+				"name": "carousel",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "animalInside",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "animal",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "crateId",
+						"type": "uint256"
+					}
+				],
+				"name": "changeAnimal",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentCrateId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "animalName",
+						"type": "string"
+					}
+				],
+				"name": "encodeAnimalName",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "animal",
+						"type": "string"
+					}
+				],
+				"name": "setAnimalAndSpin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"cour_lvl.sol": "MagicAnimalCarousel"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"cour_lvl.sol": {
+			"keccak256": "0x1933a8da62f5f469294e6b8a5be4284d632a7d18f94db0a5430d49971debbb23",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1d7dae9cfd12f8e69ae57516b7e9bd98a5cd553f57d7aba7968791a4ac124951",
+				"dweb:/ipfs/QmTUPwtvv3BEhb5oxzS2bEf6TfyuEdHsXUgmv8aGL8WK7Z"
+			]
+		}
+	},
+	"version": 1
+}

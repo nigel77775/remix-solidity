@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newImplementation",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "upgradeToAndCall",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"moto_sol.sol": "Poc"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"moto_sol.sol": {
+			"keccak256": "0x4c0f55152d0d2a4a3ba87284415eff5fcf6fc063141d2b247165721e14ba6ebf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09e85f9c3acb2fd285db845c00879d62172186d47e7cd2163e5d085d3c9519c1",
+				"dweb:/ipfs/QmYS7kwLZzdryGwQiYQnkiP8oNHwcV6ABAf5MdsQCUhYaL"
+			]
+		}
+	},
+	"version": 1
+}
